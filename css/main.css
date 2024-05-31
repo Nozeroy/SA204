@@ -1,10 +1,22 @@
+/* Styles globaux */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
 .Accueil {
+  position: relative;
+}
+
+/* Styles pour Navback */
+.Navback {
   position: relative;
 }
 
 .Navback .Rectangle1,
 .Navback .Rectangle2 {
-  /* Ajoutez vos styles ici */
+  /* Ajoutez vos styles ici si nécessaire */
 }
 
 .Navback .rectangle3-1 {
@@ -37,6 +49,7 @@
   border-radius: 15px;
 }
 
+/* Styles pour Other */
 .Other {
   width: 616px;
   height: 390px;
@@ -121,6 +134,7 @@
   border: 1px black solid;
 }
 
+/* Styles pour Caroussel */
 .Caroussel {
   width: 1310px;
   height: 298px;
@@ -201,6 +215,7 @@
   background: #B3B3B3;
 }
 
+/* Styles pour Most */
 .Most {
   width: 616px;
   height: 390px;
@@ -253,6 +268,7 @@
   position: absolute;
 }
 
+/* Styles pour Promo1 et BestSell1 */
 .Promo1 {
   width: 199px;
   height: 65px;
