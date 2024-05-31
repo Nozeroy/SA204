@@ -10,8 +10,8 @@
       <div class="Rectangle1"></div>
       <div class="Rectangle2"></div>
       <div class="Rectangle3"></div>
-      <div class="Rectangle3"></div>
       <div class="Rectangle4"></div>
+      <div class="Rectangle5"></div>
     </div>
     <div class="Other">
       <div class="Rectangle10"></div>
@@ -30,12 +30,12 @@
     </div>
     <div class="Caroussel">
       <div class="Rectangle7"></div>
-      <div class="Image">
+      <div class="Image" style="left: 97px; top: 54px;">
         <div class="Rectangle11"></div>
         <div class="Line6"></div>
         <div class="Line7"></div>
       </div>
-      <div class="Image">
+      <div class="Image" style="left: 514px; top: 54px;">
         <div class="Rectangle11"></div>
         <div class="Line6"></div>
         <div class="Line7"></div>
