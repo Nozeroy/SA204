@@ -1,52 +1,239 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+.Accueil {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background: white;
 }
 
-h1 {
-  text-align: center;
-  padding: 20px 0; /* Adjust padding as needed */
-  font-size: 1.5rem; /* Adjust font size as needed */
+.Navback {
+  width: 1440px;
+  height: 87px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
 }
 
-.promo-container {
-  display: flex; /* Arrange promo sections horizontally */
-  flex-wrap: wrap; /* Allow sections to wrap if needed */
-  justify-content: space-around; /* Distribute sections evenly */
-  margin: 20px auto; /* Add margin for spacing */
-  width: 80%; /* Adjust width as needed */
+.Rectangle1 {
+  width: 1440px;
+  height: 87px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #D9D9D9;
 }
 
-.promo {
-  border: 1px solid #ddd;
-  margin: 10px; /* Adjust margin as needed */
-  padding: 20px;
-  text-align: center; /* Center content within sections */
-  width: calc(33.33% - 20px); /* Calculate width based on number of promos */
-  background-color: #f5f5f5; /* Light background color */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+.Rectangle2 {
+  width: 356px;
+  height: 87px;
+  left: 1084px;
+  top: 0px;
+  position: absolute;
+  background: #A9A5A5;
+  border-top-left-radius: 90px;
 }
 
-.promo h2 {
-  margin-bottom: 10px;
-  font-size: 1.2rem; /* Adjust heading size as needed */
+.Rectangle3 {
+  width: 356px;
+  height: 87px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #A9A5A5;
+  border-top-left-radius: 90px;
 }
 
-.promo p {
-  margin-bottom: 15px; /* Adjust spacing between elements */
+.Rectangle4 {
+  width: 116px;
+  height: 35px;
+  left: 1288px;
+  top: 26px;
+  position: absolute;
+  background: #D9D9D9;
+  border-radius: 15px;
 }
 
-.promo a { /* Style call to action buttons (optional) */
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #4CAF50; /* Green button color */
-  color: white;
-  text-decoration: none; /* Remove underline */
-  border: none;
-  border-radius: 4px; /* Rounded corners */
+.Other {
+  width: 616px;
+  height: 390px;
+  left: 759px;
+  top: 556px;
+  position: absolute;
 }
 
-.promo a:hover { /* Button hover effect (optional) */
-  background-color: #3e8e41; /* Darker green on hover */
+.Rectangle10 {
+  width: 616px;
+  height: 390px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #D9D9D9;
+}
+
+.Ellipse3 {
+  width: 317px;
+  height: 134px;
+  left: 51px;
+  top: 34px;
+  position: absolute;
+  background: #B3B3B3;
+  border-radius: 9999px;
+}
+
+.Ellipse4 {
+  width: 317px;
+  height: 134px;
+  left: 51px;
+  top: 228px;
+  position: absolute;
+  background: #B3B3B3;
+  border-radius: 9999px;
+}
+
+.Image2 {
+  width: 152px;
+  height: 148px;
+  position: absolute;
+}
+
+.Rectangle12 {
+  width: 152px;
+  height: 148px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #B3B3B3;
+}
+
+.Line8 {
+  width: 212.15px;
+  height: 0px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(44.24deg);
+  transform-origin: 0 0;
+  border: 1px black solid;
+}
+
+.Line9 {
+  width: 212.15px;
+  height: 0px;
+  left: 152px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(135.76deg);
+  transform-origin: 0 0;
+  border: 1px black solid;
+}
+
+.Caroussel {
+  width: 1310px;
+  height: 298px;
+  left: 65px;
+  top: 169px;
+  position: absolute;
+}
+
+.Rectangle7 {
+  width: 1310px;
+  height: 298px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #D9D9D9;
+}
+
+.Image {
+  width: 292px;
+  height: 195px;
+  position: absolute;
+}
+
+.Rectangle11 {
+  width: 292px;
+  height: 195px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #B3B3B3;
+}
+
+.Line6 {
+  width: 350.02px;
+  height: 0px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(33.46deg);
+  transform-origin: 0 0;
+  border: 1px black solid;
+}
+
+.Line7 {
+  width: 350.02px;
+  height: 0px;
+  left: 292px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(146.54deg);
+  transform-origin: 0 0;
+  border: 1px black solid;
+}
+
+.Most {
+  width: 616px;
+  height: 390px;
+  left: 71px;
+  top: 556px;
+  position: absolute;
+}
+
+.Rectangle8 {
+  width: 616px;
+  height: 390px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #D9D9D9;
+}
+
+.Ellipse1 {
+  width: 317px;
+  height: 134px;
+  left: 248px;
+  top: 49px;
+  position: absolute;
+  background: #B3B3B3;
+}
+
+.Ellipse2 {
+  width: 317px;
+  height: 134px;
+  left: 248px;
+  top: 243px;
+  position: absolute;
+  background: #B3B3B3;
+  border-radius: 9999px;
+}
+
+.Promo1 {
+  width: 199px;
+  height: 65px;
+  position: absolute;
+  color: black;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.BestSell1 {
+  width: 199px;
+  height: 65px;
+  position: absolute;
+  color: black;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
 }
