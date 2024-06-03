@@ -1,239 +1,160 @@
-.Accueil {
-  width: 1440px;
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+.navbar {
+  width: 100%;
   height: 1024px;
+  background: rgba(255, 255, 255, 1);
   position: relative;
-  background: white;
 }
-
-.Navback {
-  width: 1440px;
+.header {
+  width: 100%;
   height: 87px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
+  position: relative;
+  background: url("../images/v16_47.png") center center no-repeat;
+  background-size: cover;
 }
-
-.Rectangle1 {
-  width: 1440px;
+.header-bg {
+  width: 100%;
   height: 87px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #D9D9D9;
+  background: rgba(217, 217, 217, 1);
 }
-
-.Rectangle2 {
+.header-overlay {
   width: 356px;
-  height: 87px;
+  height: 100%;
+  background: rgba(168, 164, 164, 1);
+  position: absolute;
+  top: 0;
   left: 1084px;
-  top: 0px;
-  position: absolute;
-  background: #A9A5A5;
-  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
 }
-
-.Rectangle3 {
-  width: 356px;
-  height: 87px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #A9A5A5;
-  border-top-left-radius: 90px;
+.header-right {
+  width: 30%;
+  height: 100%;
+  background: rgba(168, 164, 164, 1);
+  border-top-right-radius: 90px;
 }
-
-.Rectangle4 {
+.header-button-left, .header-button-right {
   width: 116px;
   height: 35px;
-  left: 1288px;
-  top: 26px;
-  position: absolute;
-  background: #D9D9D9;
+  background: rgba(217, 217, 217, 1);
   border-radius: 15px;
+  position: absolute;
+  top: 26px;
+}
+.header-button-left {
+  left: 1157px;
+}
+.header-button-right {
+  left: 1288px;
 }
 
-.Other {
+.promo-section {
   width: 616px;
   height: 390px;
+  position: absolute;
+  top: 556px;
   left: 759px;
-  top: 556px;
-  position: absolute;
+  background: url("../images/v16_61.png") center center no-repeat;
+  background-size: cover;
 }
-
-.Rectangle10 {
-  width: 616px;
-  height: 390px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #D9D9D9;
+.promo-bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(217, 217, 217, 1);
 }
-
-.Ellipse3 {
+.promo-overlay {
   width: 317px;
   height: 134px;
-  left: 51px;
+  background: rgba(179, 179, 179, 1);
+  position: absolute;
   top: 34px;
-  position: absolute;
-  background: #B3B3B3;
-  border-radius: 9999px;
-}
-
-.Ellipse4 {
-  width: 317px;
-  height: 134px;
   left: 51px;
+  border-radius: 50%;
+}
+.promo-circle {
+  width: 317px;
+  height: 134px;
+  background: rgba(179, 179, 179, 1);
+  border-radius: 50%;
+}
+.promo-circle-top {
+  top: 34px;
+}
+.promo-circle-bottom {
   top: 228px;
-  position: absolute;
-  background: #B3B3B3;
-  border-radius: 9999px;
 }
-
-.Image2 {
+.promo-item {
   width: 152px;
   height: 148px;
   position: absolute;
 }
-
-.Rectangle12 {
-  width: 152px;
-  height: 148px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #B3B3B3;
+.promo-item-left {
+  top: 20px;
+  left: 427px;
+  background: url("../images/v16_69.png") center center no-repeat;
+  background-size: cover;
+}
+.promo-item-right {
+  top: 221px;
+  left: 427px;
+  background: url("../images/v16_65.png") center center no-repeat;
+  background-size: cover;
+}
+.promo-item-bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(179, 179, 179, 1);
+}
+.promo-item-text {
+  color: #fff;
 }
 
-.Line8 {
-  width: 212.15px;
-  height: 0px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(44.24deg);
-  transform-origin: 0 0;
-  border: 1px black solid;
-}
-
-.Line9 {
-  width: 212.15px;
-  height: 0px;
-  left: 152px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(135.76deg);
-  transform-origin: 0 0;
-  border: 1px black solid;
-}
-
-.Caroussel {
-  width: 1310px;
+.best-sell-section {
+  width: 100%;
   height: 298px;
-  left: 65px;
+  position: absolute;
   top: 169px;
-  position: absolute;
+  left: 65px;
+  background: url("../images/v16_73.png") center center no-repeat;
+  background-size: cover;
 }
-
-.Rectangle7 {
-  width: 1310px;
-  height: 298px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #D9D9D9;
+.best-sell-bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(217, 217, 217, 1);
 }
-
-.Image {
+.best-sell-item {
   width: 292px;
   height: 195px;
   position: absolute;
+  top: 54px;
 }
-
-.Rectangle11 {
-  width: 292px;
-  height: 195px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #B3B3B3;
+.best-sell-item-left {
+  left: 97px;
+  background: url("../images/v16_75.png") center center no-repeat;
+  background-size: cover;
 }
-
-.Line6 {
-  width: 350.02px;
-  height: 0px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(33.46deg);
-  transform-origin: 0 0;
-  border: 1px black solid;
+.best-sell-item-middle {
+  left: 514px;
+  background: url("../images/v16_79.png") center center no-repeat;
+  background-size: cover;
 }
-
-.Line7 {
-  width: 350.02px;
-  height: 0px;
-  left: 292px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(146.54deg);
-  transform-origin: 0 0;
-  border: 1px black solid;
+.best-sell-item-right {
+  left: 931px;
+  background: url("../images/v16_84.png") center center no-repeat;
+  background-size: cover;
 }
-
-.Most {
-  width: 616px;
-  height: 390px;
-  left: 71px;
-  top: 556px;
-  position: absolute;
+.best-sell-item-bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(179, 179, 179, 1);
 }
-
-.Rectangle8 {
-  width: 616px;
-  height: 390px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #D9D9D9;
-}
-
-.Ellipse1 {
-  width: 317px;
-  height: 134px;
-  left: 248px;
-  top: 49px;
-  position: absolute;
-  background: #B3B3B3;
-}
-
-.Ellipse2 {
-  width: 317px;
-  height: 134px;
-  left: 248px;
-  top: 243px;
-  position: absolute;
-  background: #B3B3B3;
-  border-radius: 9999px;
-}
-
-.Promo1 {
-  width: 199px;
-  height: 65px;
-  position: absolute;
-  color: black;
-  font-size: 12px;
-  font-family: Inter;
-  font-weight: 400;
-  word-wrap: break-word;
-}
-
-.BestSell1 {
-  width: 199px;
-  height: 65px;
-  position: absolute;
-  color: black;
-  font-size: 12px;
-  font-family: Inter;
-  font-weight: 400;
-  word-wrap: break-word;
+.best-sell-item-text {
+  color: #fff;
 }

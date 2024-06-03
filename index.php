@@ -1,71 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+  <title>Accueil</title>
 </head>
 <body>
-    <div class="Accueil">
-        <div class="Navback">
-            <div class="Rectangle1"></div>
-            <div class="Rectangle2"></div>
-            <div class="Rectangle3"></div>
-            <div class="Rectangle4"></div>
-        </div>
-        <div class="Other">
-            <div class="Rectangle10"></div>
-            <div class="Ellipse3"></div>
-            <div class="Ellipse4"></div>
-            <div class="Image2" style="left: 427px; top: 221px;">
-                <div class="Rectangle12"></div>
-                <div class="Line8"></div>
-                <div class="Line9"></div>
-            </div>
-            <div class="Image2" style="left: 427px; top: 20px;">
-                <div class="Rectangle12"></div>
-                <div class="Line8"></div>
-                <div class="Line9"></div>
-            </div>
-        </div>
-        <div class="Caroussel">
-            <div class="Rectangle7"></div>
-            <div class="Image" style="left: 97px; top: 54px;">
-                <div class="Rectangle11"></div>
-                <div class="Line6"></div>
-                <div class="Line7"></div>
-            </div>
-            <div class="Image" style="left: 514px; top: 54px;">
-                <div class="Rectangle11"></div>
-                <div class="Line6"></div>
-                <div class="Line7"></div>
-            </div>
-            <div class="Rectangle11" style="left: 931px; top: 52px;"></div>
-            <div class="Image" style="left: 931px; top: 52px;">
-                <div class="Line6"></div>
-                <div class="Line7"></div>
-            </div>
-        </div>
-        <div class="Most">
-            <div class="Rectangle8"></div>
-            <div class="Ellipse1"></div>
-            <div class="Ellipse2"></div>
-            <div class="Image2" style="left: 31px; top: 35px;">
-                <div class="Rectangle12"></div>
-                <div class="Line8"></div>
-                <div class="Line9"></div>
-            </div>
-            <div class="Image2" style="left: 31px; top: 229px;">
-                <div class="Rectangle12"></div>
-                <div class="Line8"></div>
-                <div class="Line9"></div>
-            </div>
-        </div>
-        <div class="Promo1" style="left: 454px; top: 653px;">Promo 1</div>
-        <div class="BestSell1" style="left: 943px; top: 653px;">Best Sell 1</div>
-        <div class="BestSell1" style="left: 943px; top: 859px;">Best Sell 1</div>
-        <div class="Promo1" style="left: 454px; top: 859px;">Promo 1</div>
-    </div>
+  <div class="navbar">
+    <header class="header">
+      <div class="header-bg">
+        <div class="header-overlay"></div>
+        <div class="header-right"></div>
+        <div class="header-button-left"></div>
+        <div class="header-button-right"></div>
+      </div>
+
+    </header>
+    
+    <section class="promo-section">
+      <div class="promo-bg"></div>
+      <div class="promo-overlay"></div>
+      <div class="promo-circle promo-circle-top"></div>
+      <div class="promo-circle promo-circle-bottom"></div>
+      <div class="promo-item promo-item-left">
+        <div class="promo-item-bg"></div>
+        <div class="promo-item-text">Promo 1</div>
+      </div>
+      <div class="promo-item promo-item-right">
+        <div class="promo-item-bg"></div>
+        <div class="promo-item-text">Promo 1</div>
+      </div>
+    </section>
+    
+    <section class="best-sell-section">
+      <div class="best-sell-bg"></div>
+      <div class="best-sell-overlay"></div>
+      <div class="best-sell-item best-sell-item-left">
+        <div class="best-sell-item-bg"></div>
+        <div class="best-sell-item-text">Best Sell 1</div>
+      </div>
+      <div class="best-sell-item best-sell-item-middle">
+        <div class="best-sell-item-bg"></div>
+        <div class="best-sell-item-text">Best Sell 1</div>
+      </div>
+      <div class="best-sell-item best-sell-item-right">
+        <div class="best-sell-item-bg"></div>
+        <div class="best-sell-item-text">Best Sell 1</div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
