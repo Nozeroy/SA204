@@ -5,12 +5,28 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $password = md5($password);
     $id = time();
 
     $name = mysqli_real_escape_string($connection, $name);
     $email = mysqli_real_escape_string($connection, $email);
     $password = mysqli_real_escape_string($connection, $password);
+
+    if(empty($name) && empty($email) && empty($password)){
+        setcookie('error', 8, time() + 1, '/');
+        exit();
+    }elseif(strlen($password) < 6){
+        setcookie('error', 9, time() + 1, '/');
+        exit();
+    }elseif($password != $password2){
+        setcookie('error', 10, time() + 1, '/');
+        exit();
+    }elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+        setcookie('error', 11, time() + 1, '/');
+        exit();
+    }elseif(!preg_match('/^[a-zA-Z0-9]*$/', $name)){
+        setcookie('error', 12, time() + 1, '/');
+        exit();
+    }
 
     $sql = "SELECT * FROM users WHERE email = '$email'";
     $result = mysqli_query($connection, $sql);
