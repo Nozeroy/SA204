@@ -1,5 +1,5 @@
 <?php
-include 'includes/connect.php';
+//include 'includes/connect.php';
 if(isset($_COOKIE['id'])){
     $id = $_COOKIE['id'];
 }
