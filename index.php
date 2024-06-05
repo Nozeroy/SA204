@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +8,13 @@
   <title>Accueil</title>
 </head>
 <body>
-  <div class="navbar">
+  
+  <div class="container">
     <header class="header">
-      <div class="header-bg">
-        <div class="header-overlay"></div>
-        <div class="header-right"></div>
-        <div class="header-button-left"></div>
-        <div class="header-button-right"></div>
-      </div>
-
+      <?php include 'includes/nav.php'; ?>
     </header>
-    
     <section class="promo-section">
       <div class="promo-bg"></div>
-      <div class="promo-overlay"></div>
       <div class="promo-circle promo-circle-top"></div>
       <div class="promo-circle promo-circle-bottom"></div>
       <div class="promo-item promo-item-left">
@@ -36,7 +29,6 @@
     
     <section class="best-sell-section">
       <div class="best-sell-bg"></div>
-      <div class="best-sell-overlay"></div>
       <div class="best-sell-item best-sell-item-left">
         <div class="best-sell-item-bg"></div>
         <div class="best-sell-item-text">Best Sell 1</div>
