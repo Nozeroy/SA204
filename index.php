@@ -1,3 +1,8 @@
+<?php 
+  session_start();
+  include 'includes/connect.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
