@@ -2,10 +2,19 @@
     include '../includes/connect.php';
     include '../includes/errors.php';
 
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $password = $_POST['password'];
+    function sanitizeInput($data) {
+        return htmlspecialchars(strip_tags(trim($data)));
+    }
+    
+    $name = sanitizeInput($_POST['name']);
+    $email = sanitizeInput($_POST['email']);
+    $password = sanitizeInput($_POST['password']);
+    $surname = sanitizeInput($_POST['surname']);
     $id = time();
+
+    $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+
+
 
     //$name = mysql_real_escape_string($connection, $name);
     //$email = mysqli_real_escape_string($connection, $email);
@@ -23,11 +32,8 @@
     }elseif(!preg_match('/^[a-zA-Z0-9]*$/', $name)){
         setcookie('error', 12, time() + 1, '/');
         header('Location: ../register/index.php');
-    }else{
-        setcookie('id', $id, time() + 1, '/');
-        setcookie('error', '', time() + 1, '/');
-        header('Location: ../index.php');
     }
+    
 
     /*
     $sql = "SELECT * FROM users WHERE email = '$email'";
@@ -37,10 +43,16 @@
         setcookie('error', 1, time() + 1, '/');
         exit();
     }
-
-    $sql = "INSERT INTO users (id, name, email, password) VALUES ('$id', '$name', '$email', '$password')";
-    $result = mysqli_query($connection, $sql);
 */
+    $sql = "INSERT INTO bdd_sae.utilisateurs (UID, nom, prenom, email, adresse, mdp, role) VALUES ('$id', '$name', '$surname', '$email', ' ', '$hashed_password', 'user')";
+    $result = mysqli_query($con, $sql);
+
+    if($result){
+        setcookie('id', $id, time() + 3600, '/');
+        header('Location: ../index.php');
+    }else{
+        echo "Error";
+    }
 
 
 ?>
