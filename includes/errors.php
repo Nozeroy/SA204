@@ -1,6 +1,6 @@
 <?php
 // Error codes
-
+/*
 // Error code 1: Email already exists
 if(isset($_COOKIE['error'])){
     $error = $_COOKIE['error'];
@@ -73,8 +73,30 @@ if(isset($_COOKIE['error'])){
     $error = $_COOKIE['error'];
     if($error == 12){
         echo "Invalid name";$code=12;}
-}
+}*/
 
+function getErrorMessage($errorCode) {
+    $errorMessages = [
+        1 => "Email already exists",
+        2 => "Email does not exist",
+        3 => "Password is incorrect",
+        4 => "Email and password are required",
+        5 => "Email is required",
+        6 => "Password is required",
+        7 => "Name is required",
+        8 => "Fill fields please",
+        9 => "Password must be at least 6 characters",
+        10 => "Passwords do not match",
+        11 => "Invalid email",
+        12 => "Invalid name"
+    ];
+
+    return isset($errorMessages[$errorCode]) ? $errorMessages[$errorCode] : "Unknown error code";
+}
+if (isset($_GET['error'])) {
+    $error = intval($_GET['error']);
+    echo getErrorMessage($error);
+}
 
 
 

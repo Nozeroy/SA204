@@ -7,7 +7,7 @@ if(isset($_COOKIE['id'])){
 
 <div class="header-bg">
         <?php if(isset($_COOKIE['id'])){
-            echo "<div class='header-button-center'></div>";
+            echo "<div class='header-button-center'><a class='header-button-right-logout' href='login/logout.php'>Deconnexion</a></div>";
             echo "<div class='header-overlay-left'></div>";
             echo "<div class='header-overlay-right'></div>";
             
