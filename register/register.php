@@ -44,7 +44,7 @@
         exit();
     }
 */
-    $sql = "INSERT INTO bdd_sae.utilisateurs (UID, nom, prenom, email, adresse, mdp, role) VALUES ('$id', '$name', '$surname', '$email', ' ', '$hashed_password', 'user')";
+    $sql = "INSERT INTO bdd_sae.utilisateurs (UID, nom, prenom, email, adresse, mdp, role) VALUES ('$id', '$surname', '$name', '$email', ' ', '$hashed_password', 'user')";
     $result = mysqli_query($con, $sql);
 
     if($result){

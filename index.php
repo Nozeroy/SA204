@@ -11,8 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
   <link href="./css/main.css" rel="stylesheet">
   <title>Accueil</title>
+  <script src="js/main.js"></script>
 </head>
-<body>
+<body onload="checkCookie()">
   
   <div class="container">
     <header class="header">

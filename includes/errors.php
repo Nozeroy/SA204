@@ -88,7 +88,9 @@ function getErrorMessage($errorCode) {
         9 => "Password must be at least 6 characters",
         10 => "Passwords do not match",
         11 => "Invalid email",
-        12 => "Invalid name"
+        12 => "Invalid name",
+        13 => "Error de connexion à la base de données",
+        14 => "Error Already Logged In"
     ];
 
     return isset($errorMessages[$errorCode]) ? $errorMessages[$errorCode] : "Unknown error code";
