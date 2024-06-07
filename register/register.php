@@ -25,6 +25,7 @@
         header('Location: ../register/index.php');
     }else{
         setcookie('id', $id, time() + 1, '/');
+        setcookie('error', '', time() + 1, '/');
         header('Location: ../index.php');
     }
 
