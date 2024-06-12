@@ -369,3 +369,126 @@ body {
   top: 16.22px;
   left: 19.33px;
 }
+
+
+/* ############################################################################### */
+/* Login */
+/* ############################################################################### */
+
+
+/* General styles */
+/*body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: white;
+}
+
+.form-container {
+  width: 638.33px;
+  height: 809.46px;
+  position: absolute;
+  left: 600px;
+  top: 147px;
+}
+
+.form-container .form-background {
+  width: 575px;
+  height: 809.46px;
+  background: #D9D9D9;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form-container .form-content {
+  width: 462.50px;
+  height: 664.50px;
+  background: white;
+  position: absolute;
+  top: 74.22px;
+  left: 56.25px;
+}
+
+.form-group {
+  position: absolute;
+  width: 411.71px;
+  height: 74.22px;
+}
+
+.form-group.header {
+  top: 0;
+  left: 36px;
+  width: 341px;
+  height: 80px;
+}
+
+.form-group.email {
+  top: 192px;
+}
+
+.form-group.password {
+  top: 280px;
+  left: 1px;
+}
+
+.form-group.submit {
+  top: 507px;
+  left: 222px;
+  width: 309.33px;
+  height: 75.38px;
+}
+
+.form-group .input-background,
+.form-group .submit-background,
+.form-group .header-background {
+  width: 359.38px;
+  height: 74.22px;
+  background: #D9D9D9;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form-group.header .header-background {
+  width: 279px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.form-group.submit .submit-background {
+  width: 150px;
+  height: 75.38px;
+}
+
+.form-group .input-label,
+.form-group .submit-label,
+.form-group .header-title {
+  width: 290px;
+  height: 42px;
+  color: black;
+  font-size: 35px;
+  font-weight: 400;
+  word-wrap: break-word;
+  position: absolute;
+  top: 16.44px;
+  left: 121.71px;
+}
+
+.form-group.header .header-title {
+  height: 61px;
+  left: 72px;
+  top: 19px;
+}
+
+.form-group.surname .input-label,
+.form-group.email .input-label {
+  left: 97.71px;
+}
+
+.form-group.submit .submit-label {
+  top: 16.22px;
+  left: 19.33px;
+}
+*/
