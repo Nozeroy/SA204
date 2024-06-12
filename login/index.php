@@ -1,3 +1,13 @@
+<?php
+    if(isset($_COOKIE['id'])){
+        header('Location: ../index.php');
+        setcookie('error', 14, time() + 1, '/');
+    }
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
