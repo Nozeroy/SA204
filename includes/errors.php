@@ -90,7 +90,12 @@ function getErrorMessage($errorCode) {
         11 => "Invalid email",
         12 => "Invalid name",
         13 => "Error de connexion à la base de données",
-        14 => "Error Already Logged In"
+        14 => "Error Already Logged In",
+        15 => "Error Not Logged In",
+        16 => "Error Not Admin",
+        17 => "Error Not User",
+        18 => "Error Connection DB Failed",
+        19 => "Error SQL Querry Failed"
     ];
 
     return isset($errorMessages[$errorCode]) ? $errorMessages[$errorCode] : "Unknown error code";
