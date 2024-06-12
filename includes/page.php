@@ -11,10 +11,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
   <link href="./css/main.css" rel="stylesheet">
-  <title>Accueil</title>
+  <title></title>
   <script src="js/main.js"></script>
 </head>
-
 <body onload="checkCookie()">
   
   <div class="container">

@@ -2,7 +2,7 @@
 
 $host = 'localhost';
 $dbname = 'bdd_sae';
-$user = 'user';
+$user = 'user_bdd';
 $pass = 'password';
 
 $con=mysqli_connect($host,$user,$pass) or die("Erreur  de connexion à la base de données");
